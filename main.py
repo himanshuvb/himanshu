@@ -9,7 +9,7 @@ from datetime import datetime
 import streamlit as st
 
 
-with open('config.json', 'r') as c:
+with open('package.json', 'r') as c:
     params = json.load(c)["params"]
 
 local_server = True
